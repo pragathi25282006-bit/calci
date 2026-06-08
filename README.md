@@ -1,52 +1,49 @@
-\# Responsive Calculator Web Application
+# 🧮 Responsive Calculator Web Application
 
+## 📌 Project Overview
 
+This project is a fully responsive Calculator Web Application developed using HTML, CSS, and JavaScript. It provides basic arithmetic operations through a modern and user-friendly interface inspired by mobile calculators.
 
-\## Project Description
+The calculator performs real-time calculations and supports addition, subtraction, multiplication, division, percentages, decimal values, clear, and delete operations.
 
-This is a fully responsive calculator web application built using HTML, CSS, and JavaScript.
+---
 
+## 🚀 Features
 
+### Basic Arithmetic Operations
+- Addition (+)
+- Subtraction (-)
+- Multiplication (×)
+- Division (÷)
+- Percentage (%)
 
-\## Features
+### User-Friendly Interface
+- Modern Dark Theme
+- Responsive Design
+- Calculator Display Screen
+- Hover Effects on Buttons
+- Rounded Button Design
 
-\- Addition
+### Functional Features
+- Real-time Input Display
+- Calculate Results Instantly
+- Clear All Input (C)
+- Delete Last Character (⌫)
+- Error Handling for Invalid Expressions
 
-\- Subtraction
+---
 
-\- Multiplication
+## 🛠️ Technologies Used
 
-\- Division
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure of Calculator |
+| CSS3 | Styling and Responsive Design |
+| JavaScript | Calculator Logic and Operations |
 
-\- Percentage
+---
 
-\- Decimal numbers
-
-\- Clear button
-
-\- Delete button
-
-\- Equal button
-
-\- Keyboard support
-
-\- Responsive design
-
-
-
-\## Technologies Used
-
-\- HTML
-
-\- CSS
-
-\- JavaScript
-
-
-
-\## Folder Structure
-
-
+## 📂 Project Structure
 
 calculator/
 
@@ -54,19 +51,61 @@ calculator/
 
 ├── style.css
 
-├── script.js
+├── app.js
 
 └── README.md
 
+---
 
+## 📋 How It Works
 
-\## How to Run
+1. User clicks number buttons.
+2. Numbers are displayed on the calculator screen.
+3. User selects an arithmetic operator.
+4. User enters another number.
+5. Pressing "=" calculates the result.
+6. The result is displayed on the screen.
 
-1\. Create a folder named `calculator`.
+Example:
 
-2\. Add the files `index.html`, `style.css`, `script.js`, and `README.md`.
+7 + 3 = 10
 
-3\. Open `index.html` in your browser.
+15 × 4 = 60
 
-4\. Start using the calculator.
+100 ÷ 5 = 20
+
+---
+
+## ⚙️ Installation & Execution
+
+### Step 1: Download Project
+
+Download or clone the project files.
+
+### Step 2: Open Project Folder
+
+Ensure the following files exist:
+
+- index.html
+- style.css
+- app.js
+- README.md
+
+### Step 3: Run Project
+
+#### Method 1: Direct Run
+
+Open:
+
+index.html
+
+in any modern browser.
+
+#### Method 2: Using Python Server
+
+Open Command Prompt:
+
+```cmd
+cd calculator
+python -m http.server 8000
 
