@@ -1,0 +1,28 @@
+alert("JavaScript Connected");
+
+const display = document.getElementById("display");
+
+function appendValue(value) {
+    display.value += value;
+}
+
+function clearDisplay() {
+    display.value = "";
+}
+
+function deleteLast() {
+    display.value = display.value.slice(0, -1);
+}
+
+function calculateResult() {
+    try {
+        let expression = display.value;
+
+        expression = expression.replace(/×/g, "*");
+        expression = expression.replace(/÷/g, "/");
+
+        display.value = eval(expression);
+    } catch {
+        display.value = "Error";
+    }
+}
